@@ -168,21 +168,22 @@ export default function RequestSuratJemaat() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white mt-8">
-        <div className="w-11/12 md:w-4/5 mx-auto py-6 flex flex-col md:flex-row justify-between gap-4 text-xs">
-          <div>
-            <p className="font-bold mb-1">Sistem Informasi GPdi Jemaat Sibulele</p>
-            <p>Versi Sistem: versi</p>
-            <p>Tahun: tahun</p>
-          </div>
-          <div className="text-right">
-            <p>Panduan Penggunaan</p>
-            <p>Hubungi Administrator</p>
-            <p>Kebijakan Privasi Internal</p>
-          </div>
-        </div>
-        <div className="border-t border-gray-700 text-center py-3 text-xs text-gray-400">© 2026 GPdi Jemaat Sibulele. All Rights Reserved.</div>
-      </footer>
+<footer className="bg-white border-t border-gray-300 mt-8">
+  <div className="w-11/12 md:w-4/5 mx-auto py-6 flex flex-col md:flex-row justify-between gap-4 text-xs">
+    <div>
+      <p className="font-bold mb-1">Sistem Informasi GPdi Jemaat Sibulele</p>
+      <p className="text-gray-700">Versi Sistem: versi</p>
+      <p className="text-gray-700">Tahun: tahun</p>
+    </div>
+    <div className="text-right text-gray-700">
+      <p>Panduan Penggunaan</p>
+      <p>Hubungi Administrator</p>
+      <p>Kebijakan Privasi Internal</p>
+    </div>
+  </div>
+  <div className="border-t border-gray-300 text-center py-3 text-xs text-gray-600">
+  </div>
+</footer>
     </div>
   );
 }
